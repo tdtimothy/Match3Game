@@ -193,6 +193,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9f5641fcf2b6fff439bd3d2855639baf, type: 2}
   - {fileID: 11400000, guid: fb82e8cd244ce024bae1a5524549aa20, type: 2}
   board: {fileID: 477389711}
+  boardRows: 0
+  boardCols: 0
 --- !u!114 &456950112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,6 +208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   board: {fileID: 477389711}
+  grid: {fileID: 456950111}
 --- !u!1 &477389708
 GameObject:
   m_ObjectHideFlags: 0
